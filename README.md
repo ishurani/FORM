@@ -4,7 +4,7 @@ For Developers/Contributers: To Set up follow these steps -
 
 
 1-Run on git terminal
-2- git clone https://github.com/ishurani/FORM.git
+2- git clone (https://github.com/ishurani/FORM.git)
 3-Change working directory to /FORM
 4-Install requirements.txt
  pip install -r requirements.txt
