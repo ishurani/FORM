@@ -1,6 +1,10 @@
 from django import forms
+from formapp.models import student
 
-class FormName(forms.Form):
-    name = forms.CharField()
-    email = forms.EmailField()
-    phone = forms.CharField()
+
+
+class Newstudent(forms.ModelForm):
+    class Meta:
+        model=student
+        fields='__all__'
+        
