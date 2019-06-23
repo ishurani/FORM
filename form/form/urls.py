@@ -22,7 +22,7 @@ urlpatterns = [
     path('',views.index),
     path('admin/', admin.site.urls),
     path('form/',include('formapp.urls')),
-    path('students/',views.students),
+    path('students/',views.students,name='data'),
 
 ]
 if settings.DEBUG:

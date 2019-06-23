@@ -16,7 +16,7 @@ def form(request):
 
       if form.is_valid():
           form.save(commit=True)
-          return index(request)
+          return render(request,'formapp/students.html',context=student_dict)
       else:
          print('Error')
     return render(request,'formapp/form.html',{'form':form})
