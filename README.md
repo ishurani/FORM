@@ -3,7 +3,7 @@
 For Developers/Contributers: To Set up follow these steps -
 
 
--Run on git terminal
+-Run on git terminal<br />
 - git clone [github link] (https://github.com/ishurani/FORM.git)
 -Change working directory to /FORM
 4-Install requirements.txt
