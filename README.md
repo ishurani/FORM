@@ -3,13 +3,13 @@
 For Developers/Contributers: To Set up follow these steps -
 
 
--Run on git terminal
-- git clone [github link] (https://github.com/ishurani/FORM.git)
--Change working directory to /FORM
-4-Install requirements.txt
- pip install -r requirements.txt
--Run migrations :
- python manage.py migrate
--Run server :
- python manage.py runserver <port>
+-Run on git terminal<br />
+- git clone [github link] (https://github.com/ishurani/FORM.git) <br />
+-Change working directory to /FORM <br />
+-Install requirements.txt <br />
+ pip install -r requirements.txt <br />
+-Run migrations : <br />
+ python manage.py migrate <br />
+-Run server : <br />
+ python manage.py runserver <port> </br>
 
